@@ -12,6 +12,7 @@ scm {
     }
     }
     steps {
-        shell('echo Hello World!')
+        shell("""npm install
+                npm test""")
     }
 }
